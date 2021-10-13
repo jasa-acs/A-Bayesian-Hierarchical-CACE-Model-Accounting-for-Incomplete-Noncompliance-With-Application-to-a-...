@@ -1,36 +1,34 @@
-﻿**JASA ACS Reproducibility Initiative - Author Contributions Checklist Form** 
+# Data 
 
-Data 
-
-**Abstract (Mandatory)** 
+**Abstract** 
 
 Noncompliance with assigned treatments is a common challenge in analyzing and interpreting randomized clinical trials (RCTs). One way to handle noncompliance is to estimate the complier- average causal effect (CACE), the intervention's efficacy in the subpopulation that complies with assigned treatment. In a two-step meta-analysis, one could first estimate CACE for each study, then combine them to estimate the population-averaged CACE. However, when some trials do not report noncompliance data, the two-step meta-analysis can be less efficient and potentially biased by excluding these trials. This paper proposes a flexible Bayesian hierarchical CACE framework to simultaneously account for heterogeneous and incomplete noncompliance data in a meta-analysis of RCTs. The models are motivated by and used for a meta-analysis estimating the CACE of epidural analgesia on cesarean section, in which only 10 out of 27 trials reported complete noncompliance data. The new analysis includes all 27 studies and the results present new insights on the causal effect after accounting for noncompliance. Compared to the estimated risk difference of 0.8% (95% CI: -0.3%, 1.9%) given by the two-step intention-to-treat meta-analysis, the estimated CACE is 4.1% (95% CrI: -0.3%, 10.5%). We also report simulation studies to evaluate the performance of the proposed method. 
 
-**Availability (Mandatory)** 
+**Availability** 
 
 The data were published in Bannister-Tyrrell et al. (2015) [2] Table 1, so they are publicly available. The data are also available in the Github repository [https://github.com/JinchengZ/CACEmetaBayes.git.](https://github.com/JinchengZ/CACEmetaBayes.git) 
 
-**Description (Mandatory if data available)** 
+**Description** 
 
 Link to the paper of Bannister-Tyrrell et al. (2015) [2]:  [https://www.sciencedirect.com/science/article/pii/S0895435614004557 ](https://www.sciencedirect.com/science/article/pii/S0895435614004557)The original data are listed in Table 1.   
 
 We have organized the data into our manuscript (Table 1).  
 
-Code 
+# Code 
 
-**Abstract (Mandatory)** 
+**Abstract** 
 
 The software used to produce the results of this paper is in the form of R code. The R scripts for the motivating study analysis (Section 2.2), case study results (Section 4), and simulation (Section 5) are submitted along with the manuscript. In order to implement the provided scripts, JAGS 4.3.0 should be installed in the system, and R packages “MASS”, “coda” and “rjags” are required. For the epidural analgesia case study, we included the entire R scripts used for this section. The folder includes files for data preparation, model selection, and R code for generating Figure 1-Figure 4. The simulation study files all start with generating meta-analysis data using the true values, then fit models under different settings. 
 
-**Description (Mandatory)** 
+**Description** 
 
 All statistical analyses were performed using R version 3.4.3.  
 
 The code used to produce the results of this paper has been deposited to the GitHub repository [https://github.com/JinchengZ/CACEmetaBayes.git.](https://github.com/JinchengZ/CACEmetaBayes.git)  
 
-Instructions for Use 
+# Instructions for Use 
 
-**Reproducibility (Mandatory)** 
+**Reproducibility** 
 
 All figures and result tables from the manuscript can be reproduced using the R scripts in the CACEmetaBayes.zip file that is submitted along with the manuscript. The files are also available on the GitHub repository. JAGS is required to run models. Under the master folder “CACEmetaBayes”,  
 
