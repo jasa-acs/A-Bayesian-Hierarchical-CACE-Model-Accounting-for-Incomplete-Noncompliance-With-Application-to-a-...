@@ -1,4 +1,8 @@
-# Data 
+# A Bayesian Hierarchical CACE Model Accounting for Incomplete Noncompliance With Application to a Meta-analysis of Epidural Analgesia on Cesarean Section
+### Jincheng Zhou, James S. Hodges & Haitao Chu
+# Author Contributions Checklist Form
+
+## Data 
 
 **Abstract** 
 
@@ -14,7 +18,7 @@ Link to the paper of Bannister-Tyrrell et al. (2015) [2]:  [https://www.scienced
 
 We have organized the data into our manuscript (Table 1).  
 
-# Code 
+## Code 
 
 **Abstract** 
 
@@ -26,7 +30,7 @@ All statistical analyses were performed using R version 3.4.3.
 
 The code used to produce the results of this paper has been deposited to the GitHub repository [https://github.com/JinchengZ/CACEmetaBayes.git.](https://github.com/JinchengZ/CACEmetaBayes.git)  
 
-# Instructions for Use 
+## Instructions for Use 
 
 **Reproducibility** 
 
